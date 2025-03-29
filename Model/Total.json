@@ -1,0 +1,368 @@
+[
+    {
+        "id": 1,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e69c587d-802a-40eb-a40b-a6bc9623526d.jpg?ts=1707312325",
+        "earliest": "*EARLIEST",
+        "name": "Thums Up Soft Drink (750 ml)",
+        "quantity": "750 ml",
+        "price": "₹ 40",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 2,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/cfeaa68b-2ce1-4c1e-95c5-450bbb9bb281.jpg?ts=1708591243",
+        "earliest": "*EARLIEST",
+        "name": "Bisleri Packaged Water thanda thanda cool cool",
+        "quantity": "5 l",
+        "price": "₹ 70",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 3,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b330c04e-0e5f-4733-a43f-9351772763d8.jpg?ts=1721201147",
+        "earliest": "*EARLIEST",
+        "name": "Limca Lemon 'N' Lime Soft Drink 750 ml",
+        "quantity": "750 ml",
+        "price": "₹ 39",
+        "city": "FC Road"
+    },
+    {
+        "id": 4,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6b98633c-7c6a-4708-a372-e2b49da568ab.jpg?ts=1707312322",
+        "earliest": "*EARLIEST",
+        "name": "Coca-Cola Soft Drink (750 ml)",
+        "quantity": "750 ml",
+        "price": "₹ 39",
+        "city": "JM Road"
+    },
+    {
+        "id": 5,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/10b8b01a-8b71-4448-becb-16d4247ef05c.jpg?ts=1707312326",
+        "earliest": "*EARLIEST",
+        "name": "Bisleri Packaged Water (1 l)",
+        "quantity": "1 l",
+        "price": "₹ 20",
+        "city": "Katraj"
+    },
+    {
+        "id": 6,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/352c06fc-7290-45fb-bae2-10962a92f2ca.jpg?ts=1707548417",
+        "earliest": "*EARLIEST",
+        "name": "Sprite Lime Flavored Soft Drink 750 ml",
+        "quantity": "750 ml",
+        "price": "₹ 40",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 7,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142",
+        "name": "Amul Gold Full Cream Fresh Milk",
+        "quantity": "500 ml",
+        "price": "₹ 35",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 8,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/5ee4441d-9109-48fa-9343-f5ce82b905a6.jpg?ts=1706182143",
+        "name": "Amul Taaza Toned Fresh Milk",
+        "quantity": "500 ml",
+        "price": "₹ 45",
+        "city": "FC Road"
+    },
+    {
+        "id": 9,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314",
+        "name": "Amul Salted Butter Desi Bh",
+        "quantity": "100 g",
+        "price": "₹ 60",
+        "city": "JM Road"
+    },
+    {
+        "id": 10,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314",
+        "name": "Harvest Gold - White Bread",
+        "quantity": "350 g",
+        "price": "₹ 30",
+        "city": "Katraj"
+    },
+    {
+        "id": 11,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ba929c05-aba2-4838-b674-e2072089022b.jpg?ts=1712325614",
+        "name": "Mother Dairy Cow Fresh Milk",
+        "quantity": "500 ml",
+        "price": "₹ 29",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 12,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e3f63e12-631f-4193-9160-ea4ddcbd6c5c.jpg?ts=1711189562",
+        "name": "Mother Dairy Toned Milk",
+        "quantity": "500 ml",
+        "price": "₹ 28",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 13,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b8760532-ff5b-4451-aacf-8037ec6da880.jpg?ts=1732624518",
+        "earliest": "*EARLIEST",
+        "name": "Chupa Chups Sour Bites Mixed Fruit Candy",
+        "quantity": "61.5 g",
+        "price": "₹ 35",
+        "city": "FC Road"
+    },
+    {
+        "id": 14,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/105159a.jpg?ts=1704911342",
+        "earliest": "*EARLIEST",
+        "name": "Orbit Mixed Fruit Flavour (Sugar Free)",
+        "quantity": "22 g",
+        "price": "₹ 49",
+        "city": "JM Road"
+    },
+    {
+        "id": 15,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/f82653d9-e852-4f17-be98-683f05325201.jpg?ts=1708591846",
+        "earliest": "*EARLIEST",
+        "name": "Parle Melody Chocolaty Candy",
+        "quantity": "175 g",
+        "price": "₹ 50",
+        "city": "Katraj"
+    },
+    {
+        "id": 16,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/011c5a97-354e-4ef5-8852-bcb6bed82a2b.jpg?ts=1720016768",
+        "earliest": "*EARLIEST",
+        "name": "GO DESi Tangy Imli Desi Lollipop",
+        "quantity": "10 pieces",
+        "price": "₹ 50",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 17,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/216545a.jpg?ts=1683807626",
+        "earliest": "*EARLIEST",
+        "name": "Alpenliebe Pop (with Toy Inside)",
+        "quantity": "40 g",
+        "price": "₹ 47",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 18,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/425350a.jpg?ts=1697793145",
+        "earliest": "*EARLIEST",
+        "name": "Alpenliebe Eclairs Plus Caramel Toffee Pack",
+        "quantity": "136 g",
+        "price": "₹ 47",
+        "city": "FC Road"
+    },
+    {
+        "id": 19,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/535601a.jpg?ts=1698309253",
+        "earliest": "*EARLIEST",
+        "name": "Coconut Hookah Coal Cubes by Stash Pro",
+        "quantity": "18 pieces",
+        "price": "₹ 125",
+        "city": "JM Road"
+    },
+    {
+        "id": 20,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/535602a.jpg?ts=1698309253",
+        "earliest": "*EARLIEST",
+        "name": "Flat Coconut Hookah Coal Cubes by Stash Pro",
+        "quantity": "30 pieces",
+        "price": "₹ 140",
+        "city": "Katraj"
+    },
+    {
+        "id": 21,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/540986a.jpg",
+        "earliest": "*EARLIEST",
+        "name": "Premium Silver Hookah Foil by Rhythm Imports",
+        "quantity": "30 pieces",
+        "price": "₹ 100",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 22,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/540990a.jpg",
+        "earliest": "*EARLIEST",
+        "name": "Hookah Premium Plastic Filters by Rhythm",
+        "quantity": "20 pieces",
+        "price": "₹ 150",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 23,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/c489ccad-8251-433d-bba7-53fb75b64cd9.jpg?ts=1725965941",
+        "earliest": "*EARLIEST",
+        "name": "Iron Hookah Tong by Smokey Lust",
+        "quantity": "1 unit",
+        "price": "₹ 100",
+        "city": "FC Road"
+    },
+    {
+        "id": 24,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/8680873c-be67-41af-92cf-ca2beff3c52d.jpg?ts=1726661157",
+        "earliest": "*EARLIEST",
+        "name": "Metal Coal Hookah Cloud by Smokey Lust",
+        "quantity": "1 unit",
+        "price": "₹ 350",
+        "city": "JM Road"
+    },
+    {
+        "id": 25,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b06b8269-b0f2-4887-8106-f49d5695fc12.jpg?ts=1720016904",
+        "earliest": "*EARLIEST",
+        "name": "Trident Tropical Twist Gum (Sugar Free)",
+        "quantity": "1 pack (14 sticks)",
+        "price": "₹ 180",
+        "city": "Katraj"
+    },
+    {
+        "id": 26,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/102583a.jpg?ts=1687265030",
+        "earliest": "*EARLIEST",
+        "name": "Spraymintt Icymint Mouth Freshener",
+        "quantity": "15 g",
+        "price": "₹ 85",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 27,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/110259a.jpg?ts=1688469108",
+        "earliest": "*EARLIEST",
+        "name": "Impact Sugar Free Mint Candy (Fresh Mints)",
+        "quantity": "14 g",
+        "price": "₹ 117",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 28,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/363211a.jpg?ts=1690813897",
+        "earliest": "*EARLIEST",
+        "name": "Impact Sugar Free Mint Candy (Ice Mints)",
+        "quantity": "4 g",
+        "price": "₹ 147",
+        "city": "FC Road"
+    },
+    {
+        "id": 29,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/4c0162e6-b82e-4bdc-a2ab-ff2ed8102d20.jpg",
+        "earliest": "*EARLIEST",
+        "name": "Impact Sugar Free Mint Candy (Strawberry)",
+        "quantity": "14 g",
+        "price": "₹ 147",
+        "city": "JM Road"
+    },
+    {
+        "id": 30,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/395091a.jpg?ts=1686558551",
+        "earliest": "*EARLIEST",
+        "name": "paper boat Aam Papad Fruit Bar",
+        "quantity": "90 g",
+        "price": "₹ 80",
+        "city": "Katraj"
+    },
+    {
+        "id": 31,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/bc76ce9d-9d2c-42eb-a1d5-6464618fe978.jpg?ts=1723100846",
+        "earliest": "*EARLIEST",
+        "name": "Jolochip Last Chip Challenge Chips",
+        "quantity": "5 g",
+        "price": "₹ 245",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 32,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/519579a.jpg?ts=1690828992",
+        "earliest": "*EARLIEST",
+        "name": "Cheetos Flamin' Hot Crunchy Crisps",
+        "quantity": "99 g",
+        "price": "₹ 427",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 33,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ef3c74a4-c809-4799-919d-27f75fba37eb.jpg?ts=1723100801",
+        "earliest": "*EARLIEST",
+        "name": "Kab's Jackpot Cheese Balls",
+        "quantity": "60 g",
+        "price": "₹ 190",
+        "city": "FC Road"
+    },
+    {
+        "id": 34,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/de6faf0d-7cd2-4c79-b850-1ab4968df46c.jpg?ts=1708590985",
+        "earliest": "*EARLIEST",
+        "name": "Cheetos Cheese Flavoured Puffs",
+        "quantity": "255 g",
+        "price": "₹ 106",
+        "city": "JM Road"
+    },
+    {
+        "id": 35,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ca5df83c-027b-40c9-9605-38126d47575d.jpg?ts=1723098574",
+        "earliest": "*EARLIEST",
+        "name": "Kab's Jackpot Fiery and Crunchy Crisps",
+        "quantity": "80 g",
+        "price": "₹ 65",
+        "city": "Katraj"
+    },
+    {
+        "id": 36,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/bebe562d-c417-465b-9b12-4d612f48d08a.jpg?ts=1723098763",
+        "earliest": "*EARLIEST",
+        "name": "Cheetos Flamin hot Crunchy Puffs",
+        "quantity": "23 g",
+        "price": "₹ 18",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 37,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506711a.jpg?ts=1686566489",
+        "name": "Perfect Rolling Paper (Pink) - Bongchie",
+        "quantity": "4 ml",
+        "price": "₹ 80",
+        "city": "Shivajinagar"
+    },
+    {
+        "id": 38,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/512860a.jpg?ts=1690832312",
+        "name": "Ultimate Rolling Paper with rock",
+        "quantity": "1 pack (32 Leaves + 32 Filters)",
+        "price": "₹ 238",
+        "city": "FC Road"
+    },
+    {
+        "id": 39,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/478728a.jpg?ts=1690814280",
+        "name": "Ultimate Rolling Paper with filters",
+        "quantity": "1 pack (80 Leaves)",
+        "price": "₹ 90",
+        "city": "JM Road"
+    },
+    {
+        "id": 40,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/496996a.jpg?ts=1690814374",
+        "name": "Brown Rolling Paper Cones - Stash Pro",
+        "quantity": "6 p",
+        "price": "₹ 130",
+        "city": "Katraj"
+    },
+    {
+        "id": 41,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506375a.jpg?ts=1698309252",
+        "name": "Brown Ripper Rolling Paper 32 Leaves",
+        "quantity": "60 pieces",
+        "price": "₹ 129",
+        "city": "Karve Nagar"
+    },
+    {
+        "id": 42,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506709a.jpg?ts=1685952438",
+        "name": "Perfect Rolled Cones (White) - Bongchie",
+        "quantity": "6 pack",
+        "price": "₹ 128",
+        "city": "Shivajinagar"
+    }
+]

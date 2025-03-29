@@ -1,0 +1,47 @@
+[
+    {
+    "id": 1,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-11.png",
+    "name": "Masala, Oil & More"
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-12.png",
+    "name": "Sauces & Spreads"
+  },
+  {
+    "id": 3,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-13.png",
+    "name": "Chicken, Meat & Fish"
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-14.png",
+    "name": "Organic & Healthy Living"
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-15.png",
+    "name": "Baby Care"
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-16.png",
+    "name": "Pharma & Wellness"
+  },
+  {
+    "id": 7,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-17.png",
+    "name": "Cleaning Essential"
+  },
+  {
+    "id": 8,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-18.png",
+    "name": "Home & Office"
+  },
+  {
+    "id": 8,
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-18.png",
+    "name": "Home & Office"
+  }
+]

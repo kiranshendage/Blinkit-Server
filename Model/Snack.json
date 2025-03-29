@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506711a.jpg?ts=1686566489",
+        "name": "Perfect Rolling Paper (Pink) - Bongchie",
+        "quantity": "4 ml",
+        "price": "₹ 80"
+    },
+    {
+        "id": 2,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/512860a.jpg?ts=1690832312",
+        "name": "Ultimate Rolling Paper with rock",
+        "quantity": "1 pack (32 Leaves + 32 Filters)",
+        "price": "₹ 238"
+    },
+    {
+        "id": 3,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/478728a.jpg?ts=1690814280",
+        "name": "Ultimate Rolling Paper with filters",
+        "quantity": "1 pack (80 Leaves)",
+        "price": "₹ 90"
+    },
+    {
+        "id": 4,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/496996a.jpg?ts=1690814374",
+        "name": "Brown Rolling Paper Cones - Stash Pro",
+        "quantity": "6 p",
+        "price": "₹ 130"
+    },
+    {
+        "id": 5,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506375a.jpg?ts=1698309252",
+        "name": "Brown Ripper Rolling Paper 32 Leaves",
+        "quantity": "60 pieces",
+        "price": "₹ 129"
+    },
+    {
+        "id": 6,
+        "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/506709a.jpg?ts=1685952438",
+        "name": "Perfect Rolled Cones (White) - Bongchie",
+        "quantity": "6 pack",
+        "price": "₹ 128"
+    }
+]

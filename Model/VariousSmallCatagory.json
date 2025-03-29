@@ -1,0 +1,48 @@
+[
+    {
+      "id" : 1,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png",
+      "name": "Paan Corner"
+    },
+    {
+      "id" : 2,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-2_10.png",
+      "name": "Dairy, Bread & Eggs"
+    },
+    {
+      "id" : 3,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-3_9.png",
+      "name": "Fruit & Vegetables"
+    },
+    {
+      "id" : 4,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-4_9.png",
+      "name": "Cold Drink & Juices"
+    },
+    {
+      "id" : 5,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-5_4.png",
+      "name": "Snacks & Munchies"
+    },
+    {
+      "id" : 6,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-6_5.png",
+      "name": "Breakfast & Instant Food"
+    },
+    {
+      "id" : 7,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-7_3.png",
+      "name": "Sweet Tooth"
+    },
+    {
+      "id" : 8,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-8_4.png",
+      "name": "Bakery & Biscuits"
+    },{
+      "id" : 8,
+      "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-8_4.png",
+      "name": "Bakery & Biscuits"
+    }
+    
+]
+
