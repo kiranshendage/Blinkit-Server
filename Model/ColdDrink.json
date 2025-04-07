@@ -1,0 +1,44 @@
+[
+  {
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e69c587d-802a-40eb-a40b-a6bc9623526d.jpg?ts=1707312325",
+    "earliest": "*EARLIEST",
+    "name": "Thums Up Soft Drink (750 ml)",
+    "quantity": "750 ml",
+    "price": "₹ 40"
+  },
+  {
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/cfeaa68b-2ce1-4c1e-95c5-450bbb9bb281.jpg?ts=1708591243",
+    "earliest": "*EARLIEST",
+    "name": "Bisleri Packaged Water thanda thanda cool cool",
+    "quantity": "5 l",
+    "price": "₹ 70"
+  },
+  {
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/b330c04e-0e5f-4733-a43f-9351772763d8.jpg?ts=1721201147",
+    "earliest": "*EARLIEST",
+    "name": "Limca Lemon 'N' Lime Soft Drink 750 ml",
+    "quantity": "750 ml",
+    "price": "₹ 39"
+  },
+  {
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/6b98633c-7c6a-4708-a372-e2b49da568ab.jpg?ts=1707312322",
+    "earliest": "*EARLIEST",
+    "name": "Coca-Cola Soft Drink (750 ml)",
+    "quantity": "750 ml",
+    "price": "₹ 39"
+  },
+  {
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/10b8b01a-8b71-4448-becb-16d4247ef05c.jpg?ts=1707312326",
+    "earliest": "*EARLIEST",
+    "name": "Bisleri Packaged Water (1 l)",
+    "quantity": "1 l",
+    "price": "₹ 20"
+  },
+  {
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/352c06fc-7290-45fb-bae2-10962a92f2ca.jpg?ts=1707548417",
+    "earliest": "*EARLIEST",
+    "name": "Sprite Lime Flavored Soft Drink 750 ml",
+    "quantity": "750 ml",
+    "price": "₹ 40"
+  }
+]

@@ -8,7 +8,7 @@ const app = express();
 const port = 5444;
 
 // ✅ Database Connection
-mongoose.connect("mongodb://127.0.0.1:27017/Blinkiti")
+mongoose.connect("mongodb+srv://kiran:Kiran2003@cluster0.38yys.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Blinkiti")
   .then(() => console.log("Database Connected"))
   .catch(err => console.log("Database Connection Error:", err));
 
@@ -67,6 +67,39 @@ app.post('/login', (req, res) => {
       .catch(err => res.json(err));
   });
   
+  app.post("/cold-drink/:id/review", async (req, res) => {
+    const { id } = req.params;
+    const { username, rating, comment } = req.body;
+
+    try {
+        const coldDrink = await ColdDrink.findById(id);
+        if (!coldDrink) {
+            return res.status(404).json({ message: "Cold drink not found" });
+        }
+
+        coldDrink.reviews.push({ username, rating, comment });
+        await coldDrink.save();
+
+        res.status(200).json({ message: "Review added successfully", coldDrink });
+    } catch (error) {
+        res.status(500).json({ message: "Error adding review", error });
+    }
+});
+app.get("/cold-drink/:id/reviews", async (req, res) => {
+  const { id } = req.params;
+
+  try {
+      const coldDrink = await ColdDrink.findById(id);
+      if (!coldDrink) {
+          return res.status(404).json({ message: "Cold drink not found" });
+      }
+
+      res.json(coldDrink.reviews);
+  } catch (error) {
+      res.status(500).json({ message: "Error fetching reviews", error });
+  }
+});
+
 app.use('/', routes);
 
 app.listen(port, () => {
