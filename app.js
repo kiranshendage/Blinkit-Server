@@ -50,6 +50,29 @@ app.use((req, res, next) => {
 //       })
 //       .catch(err => res.json(err));
 //   });
+
+// app.post('/login', async (req, res) => {
+//   const { email, password } = req.body;
+
+//   try {
+//     const user = await RegisterModel.findOne({ email });
+//     if (!user) {
+//       return res.json({ success: false, message: "No record exists" });
+//     }
+
+//     if (user.password !== password) {
+//       return res.json({ success: false, message: "Incorrect password" });
+//     }
+
+//     res.json({ success: true, message: "Login successful", user });
+//   } catch (err) {
+//     res.status(500).json({ success: false, message: "Server error", error: err });
+//   }
+// });
+
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
@@ -59,11 +82,23 @@ app.post('/login', async (req, res) => {
       return res.json({ success: false, message: "No record exists" });
     }
 
-    if (user.password !== password) {
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
       return res.json({ success: false, message: "Incorrect password" });
     }
 
-    res.json({ success: true, message: "Login successful", user });
+    const token = jwt.sign({ id: user._id }, "secretKey", { expiresIn: "1h" });
+
+    res.json({
+      success: true,
+      message: "Login successful",
+      token,
+      user: {
+        id: user._id,
+        name: user.name,
+        email: user.email
+      }
+    });
   } catch (err) {
     res.status(500).json({ success: false, message: "Server error", error: err });
   }
