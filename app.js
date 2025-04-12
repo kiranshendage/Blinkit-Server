@@ -34,38 +34,75 @@ app.use((req, res, next) => {
 
 
 // Login Endpoint
-app.post('/login', (req, res) => {
-    const { email, password } = req.body;
-    RegisterModel.findOne({ email: email })
-      .then(user => {
-        if (user) {
-          if (user.password === password) {
-            res.json("Success");
-          } else {
-            res.json("The password is incorrect");
-          }
-        } else {
-          res.json("No record exists");
-        }
-      })
-      .catch(err => res.json(err));
-  });
+// app.post('/login', (req, res) => {
+//     const { email, password } = req.body;
+//     RegisterModel.findOne({ email: email })
+//       .then(user => {
+//         if (user) {
+//           if (user.password === password) {
+//             res.json("Success");
+//           } else {
+//             res.json("The password is incorrect");
+//           }
+//         } else {
+//           res.json("No record exists");
+//         }
+//       })
+//       .catch(err => res.json(err));
+//   });
+app.post('/login', async (req, res) => {
+  const { email, password } = req.body;
+
+  try {
+    const user = await RegisterModel.findOne({ email });
+    if (!user) {
+      return res.json({ success: false, message: "No record exists" });
+    }
+
+    if (user.password !== password) {
+      return res.json({ success: false, message: "Incorrect password" });
+    }
+
+    res.json({ success: true, message: "Login successful", user });
+  } catch (err) {
+    res.status(500).json({ success: false, message: "Server error", error: err });
+  }
+});
+
   
   // Registration Endpoint
-  app.post('/register', (req, res) => {
+  // app.post('/register', (req, res) => {
+  //   const { name, email, password } = req.body;
+  //   RegisterModel.findOne({ email: email })
+  //     .then(user => {
+  //       if (user) {
+  //         res.json("Already have an account");
+  //       } else {
+  //         RegisterModel.create({ name, email, password })
+  //           .then(() => res.json("Account created"))
+  //           .catch(err => res.json(err));
+  //       }
+  //     })
+  //     .catch(err => res.json(err));
+  // });
+  app.post('/register', async (req, res) => {
     const { name, email, password } = req.body;
-    RegisterModel.findOne({ email: email })
-      .then(user => {
-        if (user) {
-          res.json("Already have an account");
-        } else {
-          RegisterModel.create({ name, email, password })
-            .then(() => res.json("Account created"))
-            .catch(err => res.json(err));
-        }
-      })
-      .catch(err => res.json(err));
+  
+    try {
+      // Check if the user already exists
+      const existingUser = await RegisterModel.findOne({ email });
+      if (existingUser) {
+        return res.json({ success: false, message: "User already exists" });
+      }
+  
+      // Create a new user
+      const newUser = await RegisterModel.create({ name, email, password });
+      res.json({ success: true, message: "Account created", user: newUser });
+    } catch (err) {
+      res.status(500).json({ success: false, message: "Server error", error: err });
+    }
   });
+  
   
   app.post("/cold-drink/:id/review", async (req, res) => {
     const { id } = req.params;
