@@ -16,12 +16,6 @@ mongoose.connect("mongodb+srv://kiran:Kiran2003@cluster0.38yys.mongodb.net/?retr
 app.use(express.json());
 app.use(cors());
 
-//✅Create API route
-// app.post("/register", async (req, res) => {
-//     let user = new RegisterModel(req.body); // ✅ Correct reference
-//     let result = await user.save();
-//     res.send(result);
-// });
 
 
 // ✅ CORS Headers Middleware
@@ -74,7 +68,7 @@ app.use((req, res, next) => {
 const jwt = require('jsonwebtoken');
 
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 // Login Endpoint
 app.post('/login', async (req, res) => {
