@@ -17,11 +17,11 @@ app.use(express.json());
 app.use(cors());
 
 //✅Create API route
-app.post("/register", async (req, res) => {
-    let user = new RegisterModel(req.body); // ✅ Correct reference
-    let result = await user.save();
-    res.send(result);
-});
+// app.post("/register", async (req, res) => {
+//     let user = new RegisterModel(req.body); // ✅ Correct reference
+//     let result = await user.save();
+//     res.send(result);
+// });
 
 
 // ✅ CORS Headers Middleware
@@ -70,16 +70,21 @@ app.use((req, res, next) => {
 //   }
 // });
 
-const bcrypt = require('bcryptjs');
+
 const jwt = require('jsonwebtoken');
 
+
+const bcrypt = require('bcrypt');
+
+// Login Endpoint
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
   try {
     const user = await RegisterModel.findOne({ email });
+
     if (!user) {
-      return res.json({ success: false, message: "No record exists" });
+      return res.json({ success: false, message: "User not found" });
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
@@ -87,22 +92,75 @@ app.post('/login', async (req, res) => {
       return res.json({ success: false, message: "Incorrect password" });
     }
 
-    const token = jwt.sign({ id: user._id }, "secretKey", { expiresIn: "1h" });
+    // success
+    res.json({ success: true, message: "Login successful" });
 
-    res.json({
-      success: true,
-      message: "Login successful",
-      token,
-      user: {
-        id: user._id,
-        name: user.name,
-        email: user.email
-      }
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ success: false, message: "Server error" });
+  }
+});
+
+
+// app.post('/login', async (req, res) => {
+//   const { email, password } = req.body;
+
+//   try {
+//     const user = await User.findOne({ email });
+
+//     if (!user) {
+//       return res.json({ success: false, message: "User not found" });
+//     }
+
+//     const isMatch = await bcrypt.compare(password, user.password);
+//     if (!isMatch) {
+//       return res.json({ success: false, message: "Incorrect password" });
+//     }
+
+//     // success
+//     res.json({ success: true, message: "Login successful" });
+
+//   } catch (err) {
+//     console.error(err);
+//     res.status(500).json({ success: false, message: "Server error" });
+//   }
+// });
+
+
+
+
+app.post('/register', async (req, res) => {
+  const { name, email, password } = req.body;
+
+  try {
+    // Check if the user already exists
+    const existingUser = await RegisterModel.findOne({ email });
+    if (existingUser) {
+      return res.json({ success: false, message: "User already exists" });
+    }
+
+    // Hash the password before saving
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, salt);
+
+    // Create a new user with hashed password
+    const newUser = new RegisterModel({
+      name,
+      email,
+      password: hashedPassword,
     });
+
+    await newUser.save();
+
+    res.json({ success: true, message: "Account created", user: newUser });
   } catch (err) {
     res.status(500).json({ success: false, message: "Server error", error: err });
   }
 });
+
+// **************************************
+
+
 
   
   // Registration Endpoint
@@ -120,25 +178,56 @@ app.post('/login', async (req, res) => {
   //     })
   //     .catch(err => res.json(err));
   // });
-  app.post('/register', async (req, res) => {
-    const { name, email, password } = req.body;
+
+
+  // *****************working
+  // app.post('/register', async (req, res) => {
+  //   const { name, email, password } = req.body;
   
-    try {
-      // Check if the user already exists
-      const existingUser = await RegisterModel.findOne({ email });
-      if (existingUser) {
-        return res.json({ success: false, message: "User already exists" });
-      }
+  //   try {
+  //     // Check if the user already exists
+  //     const existingUser = await RegisterModel.findOne({ email });
+  //     if (existingUser) {
+  //       return res.json({ success: false, message: "User already exists" });
+  //     }
   
-      // Create a new user
-      const newUser = await RegisterModel.create({ name, email, password });
-      res.json({ success: true, message: "Account created", user: newUser });
-    } catch (err) {
-      res.status(500).json({ success: false, message: "Server error", error: err });
-    }
-  });
+  //     // Create a new user
+  //     const newUser = await RegisterModel.create({ name, email, password });
+  //     res.json({ success: true, message: "Account created", user: newUser });
+  //   } catch (err) {
+  //     res.status(500).json({ success: false, message: "Server error", error: err });
+  //   }
+  // });
+  // ***********************************
+
+
   
+  // app.post('/login', async (req, res) => {
+  //   const { email, password } = req.body;
   
+  //   try {
+  //     const user = await RegisterModel.findOne({ email });
+  
+  //     if (!user) {
+  //       return res.json({ success: false, message: "User not found" });
+  //     }
+  
+  //     // Compare the provided password with the hashed password in the database
+  //     const isMatch = await bcrypt.compare(password, user.password);
+  //     if (!isMatch) {
+  //       return res.json({ success: false, message: "Incorrect password" });
+  //     }
+  
+  //     // success
+  //     res.json({ success: true, message: "Login successful" });
+  
+  //   } catch (err) {
+  //     console.error(err);
+  //     res.status(500).json({ success: false, message: "Server error" });
+  //   }
+  // });
+       
+
   app.post("/cold-drink/:id/review", async (req, res) => {
     const { id } = req.params;
     const { username, rating, comment } = req.body;

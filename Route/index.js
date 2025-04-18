@@ -31,4 +31,6 @@ router.get("/VariousSmallCatagory", controller.getVariousSmallCatagory);
 router.get("/VariousSmallCatagory1", controller.getVariousSmallCatagory1);
 router.get("/Menu", controller.getMenu);
 
+
+
 module.exports = router;
